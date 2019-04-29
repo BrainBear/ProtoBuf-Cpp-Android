@@ -2,6 +2,7 @@ package me.brainbear.protobuf
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import me.brainbear.lite.Lite
 import me.brainbear.nano.Nano
 
 class MainActivity : AppCompatActivity() {
@@ -10,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Nano().test();
+        Nano().test()
+
+        Lite().test()
     }
 }
